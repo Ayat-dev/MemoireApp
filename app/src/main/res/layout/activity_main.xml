@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,62 +12,101 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:textSize="24sp"
+        android:text="Quel service dois-je vous rendre?"
+        android:textSize="16sp"
         android:textColor="@color/purple_500"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:layout_gravity="center_horizontal"/>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
         android:background="@color/teal_200"
-        android:layout_marginBottom="5dp"
-        android:orientation="horizontal">
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        >
 
+        <TextView
+            android:id="@+id/ref1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guide_conversion"
+            android:textSize="12sp"
+            android:textColor="@color/purple_500"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
         <Button
             android:id="@+id/conversion"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:onClick="intentConversion"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ref1"
             android:text="Conversion"/>
-    </LinearLayout>
-    <LinearLayout
+    </RelativeLayout>
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
         android:background="@color/teal_200"
-        android:layout_marginBottom="5dp"
-        android:orientation="horizontal">
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        >
 
+
+        <TextView
+            android:id="@+id/ref2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guide_calculateur"
+            android:textSize="12sp"
+            android:textColor="@color/purple_500"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
         <Button
             android:id="@+id/calculateur"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:text="Calculateur"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ref2"
             android:onClick="intentCalculateur"/>
-    </LinearLayout>
-    <LinearLayout
+    </RelativeLayout>
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
         android:background="@color/teal_200"
-        android:layout_marginBottom="5dp"
-        android:orientation="horizontal">
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        >
 
+        <TextView
+            android:id="@+id/ref3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guide_caclulatrice"
+            android:textSize="12sp"
+            android:textColor="@color/purple_500"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
         <Button
             android:id="@+id/calculatrice"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:text="Calculatrice"
+            android:layout_below="@id/ref3"
+            android:layout_centerHorizontal="true"
             android:onClick="intentCalculatrice"/>
-    </LinearLayout>
+    </RelativeLayout>
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="This App is powered by Ayat_Dev!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Enjoy!"
+        android:layout_gravity="right"
+         />
 
 </LinearLayout>

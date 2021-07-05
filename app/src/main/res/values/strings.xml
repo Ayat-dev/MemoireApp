@@ -1,3 +1,229 @@
 <resources>
     <string name="app_name">Resolveur Convertisseur</string>
+
+    <!-- Conversion -->
+    <string name="action_about">Info</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_version" translatable="false">Version</string>
+    <string name="about_site" translatable="false">Link:</string>
+    <string name="about_link">Website</string>
+    <string name="about_sitec" translatable="false">https://bitbucket.org/ralfh/converter/</string>
+    <string name="about_mail" translatable="false">E-Mail:</string>
+    <string name="about_mailc" translatable="false">ralf+converter@ackstorm.de</string>
+    <string name="about_desc" translatable="false">Released under the BSD License. See COPYING for details.</string>
+    <string name="about_ok" translatable="false">OK</string>
+
+    <!-- Category -->
+
+    <string name="cat_length">Length</string>
+    <string name="cat_area">Area</string>
+    <string name="cat_volume">Volume</string>
+    <string name="cat_torque">Torque</string>
+    <string name="cat_mass">Mass</string>
+    <string name="cat_temperature">Temperature</string>
+    <string name="cat_speed">Speed</string>
+    <string name="cat_currency">Currency</string>
+    <string name="cat_energy">Energy</string>
+    <string name="cat_pressure">Pressure</string>
+
+    <!-- Length -->
+
+    <string name="unit_mm" translatable="false">mm</string>
+    <string name="unit_m" translatable="false">m</string>
+    <string name="unit_km" translatable="false">km</string>
+    <string name="unit_in" translatable="false">in</string>
+    <string name="unit_ft" translatable="false">ft</string>
+    <string name="unit_yd" translatable="false">yd</string>
+    <string name="unit_mi" translatable="false">mi</string>
+    <string name="unit_nmi" translatable="false">nmi</string>
+    <string name="unit_ly" translatable="false">ly</string>
+
+    <string name="desc_mm">millimetre</string>
+    <string name="desc_m">metre</string>
+    <string name="desc_km">kilometre</string>
+    <string name="desc_yd">yard</string>
+    <string name="desc_in">inch</string>
+    <string name="desc_ft">foot</string>
+    <string name="desc_mi">mile</string>
+    <string name="desc_nmi">nautical mile</string>
+    <string name="desc_ly">light-year</string>
+
+    <!-- Area -->
+
+    <string name="unit_yd2" translatable="false">yd²</string>
+    <string name="unit_m2" translatable="false">m²</string>
+    <string name="unit_ha" translatable="false">ha</string>
+    <string name="unit_km2" translatable="false">km²</string>
+    <string name="unit_ac" translatable="false">ac</string>
+    <string name="unit_mi2" translatable="false">mi²</string>
+
+    <string name="desc_yd2">square yard</string>
+    <string name="desc_m2">square metre</string>
+    <string name="desc_ha">hectare</string>
+    <string name="desc_km2">square kilometre</string>
+    <string name="desc_ac">acre</string>
+    <string name="desc_mi2">square mile</string>
+
+    <!-- Volume -->
+
+    <string name="unit_l" translatable="false">l</string>
+    <string name="unit_m3" translatable="false">m³</string>
+    <string name="unit_gal_us" translatable="false">gal</string>
+    <string name="unit_gal_imp" translatable="false">imp gal</string>
+
+    <string name="desc_l">litre</string>
+    <string name="desc_m3">cubic metre</string>
+    <string name="desc_gal_us">US gallon</string>
+    <string name="desc_gal_imp">imp. gallon</string>
+
+    <!-- Torque -->
+
+    <string name="unit_nm" translatable="false">N\u2009m</string>
+    <string name="unit_inlbf" translatable="false">in\u2009lbf</string>
+    <string name="unit_ftlbf" translatable="false">ft\u2009lbf</string>
+
+    <string name="desc_nm">newton metre</string>
+    <string name="desc_inlbf" translatable="false"></string>
+    <string name="desc_ftlbf" translatable="false"></string>
+
+    <!-- Mass -->
+
+    <string name="unit_kg" translatable="false">kg</string>
+    <string name="unit_lb" translatable="false">lb</string>
+    <string name="unit_oz" translatable="false">oz</string>
+
+    <string name="desc_kg">kilogram</string>
+    <string name="desc_lb">pound</string>
+    <string name="desc_oz">US</string>
+
+    <!-- Temperature -->
+
+    <string name="unit_celsius" translatable="false">°C</string>
+    <string name="unit_fahrenheit" translatable="false">°F</string>
+    <string name="unit_kelvin" translatable="false">K</string>
+
+    <string name="desc_celsius">Celsius</string>
+    <string name="desc_fahrenheit">Fahrenheit</string>
+    <string name="desc_kelvin">Kelvin</string>
+
+    <!-- Speed -->
+
+    <string name="unit_mps" translatable="false">m/s</string>
+    <string name="unit_kmh" translatable="false">km/h</string>
+    <string name="unit_mph" translatable="false">mph</string>
+    <string name="unit_knot" translatable="false">knot</string>
+
+    <string name="desc_mps">metre per second</string>
+    <string name="desc_kmh">kilometre per hour</string>
+    <string name="desc_mph">mile per hour</string>
+    <string name="desc_knot"></string>
+
+    <!-- Currency -->
+
+    <string name="unit_euro" translatable="false">€</string>
+    <string name="unit_dollar" translatable="false">$</string>
+    <string name="unit_rupee" translatable="false">&#8377;</string>
+    <string name="unit_sfr" translatable="false">Fr.</string>
+    <string name="unit_gbp" translatable="false">£</string>
+
+    <string name="desc_euro">Euro</string>
+    <string name="desc_dollar">Dollar</string>
+    <string name="desc_rupee">Rupee</string>
+    <string name="desc_sfr">Swiss Franc</string>
+    <string name="desc_gbp">Pound</string>
+
+    <!-- Energy -->
+
+    <string name="unit_joule" translatable="false">J</string>
+    <string name="unit_kilojoule" translatable="false">kJ</string>
+    <string name="unit_cal" translatable="false">cal</string>
+    <string name="unit_kcal" translatable="false">kCal</string>
+    <string name="unit_ws" translatable="false">Ws</string>
+    <string name="unit_wh" translatable="false">Wh</string>
+    <string name="unit_kwh" translatable="false">kWh</string>
+
+    <string name="desc_joule">Joule</string>
+    <string name="desc_kilojoule">Kilojoule</string>
+    <string name="desc_cal">Calories</string>
+    <string name="desc_kcal">Kilocalories</string>
+    <string name="desc_ws">Watt second</string>
+    <string name="desc_wh">Watthours</string>
+    <string name="desc_kwh">Kilowatthours</string>
+
+    <!-- Pressure -->
+    <string name="unit_psi" translatable="false">psi</string>
+    <string name="unit_bar" translatable="false">bar</string>
+    <string name="unit_mbar" translatable="false">mbar</string>
+    <string name="unit_pa"  translatable="false">Pa</string>
+    <string name="unit_hpa" translatable="false">hPa</string>
+    <string name="unit_kpa" translatable="false">kPa</string>
+
+    <string name="desc_psi">Pound/square inch</string>
+    <string name="desc_bar">Bar</string>
+    <string name="desc_mbar">Millibar</string>
+    <string name="desc_pa">Pascal</string>
+    <string name="desc_hpa">Hectopascal</string>
+    <string name="desc_kpa">Kilopascal</string>
+    <!-- Fin conversion -->
+
+    <!-- Systeme d'equation -->
+    <string name="r_solveur_d_quation_quadratrique">Résolveur d\'équation quadratrique</string>
+    <string name="r_soudre_ax_2_bx_c_0">Résoudre ax² + bx + c = 0</string>
+    <string name="b">b</string>
+    <string name="a">a</string>
+    <string name="c">c</string>
+
+    <!-- Equqtion de degre 2 -->
+    <string name="r_solveur_d_quation_3_degr_s">Résolveur d\'équation 3 degrés</string>
+    <string name="r_soudre_ce_syst_me">Résoudre ce système</string>
+    <string name="_3x_2y_z_1">3x + 2y - 1z = 1</string>
+    <string name="_2x_2y_4z_2">2x - 2y + 4z = -2</string>
+    <string name="x_y_2_z_0">-1x + 0.5y - 1z = 0</string>
+
+    <!-- Calculatrice -->
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="_1_x">1/x</string>
+    <string name="_x">×</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="percent">%</string>
+    <string name="divide">÷</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="racine_carree">√x</string>
+    <string name="parenthese_close">)</string>
+    <string name="parenthese_open">(</string>
+    <string name="back_delete">⌫</string>
+    <string name="Clear">AC</string>
+    <string name="Power">xⁿ</string>
+    <string name="factoriel">x!</string>
+    <string name="tan">tan</string>
+    <string name="cos">cos</string>
+    <string name="sin">sin</string>
+    <string name="_3">3</string>
+    <string name="moins">-</string>
+    <string name="plus">+</string>
+    <string name="virgule">,</string>
+    <string name="pi">π</string>
+    <string name="equal">=</string>
+    <string name="_0">0</string>
+    <string name="mathError">Erreur</string>
+    <string name="plus_moins">-x</string>
+    <string name="log">log</string>
+    <string name="e">e</string>
+    <string name="bin">bin</string>
+    <string name="dec">dec</string>
+    <string name="mod">mod</string>
+    <string name="earth">∞</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guide_conversion">En cliquant sur ce boutton, vous serez redrigez vers l\'interface de conversion</string>
+    <string name="guide_caclulatrice">Ce boutton vous redirige vers une simple calculatrice, au besoin!</string>
+    <string name="guide_calculateur">Ce boutton vous renvoie à la prochaine interface où vous pourriez choisir entre résoudre une équation du second degré oubien un système d\'équation à trois inconnues </string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

@@ -8,12 +8,47 @@
     android:paddingTop="15dp"
     android:paddingLeft="15dp"
     android:paddingRight="15dp"
-    tools:context=".LongueurActivity">
+    tools:context=".calculateur">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_gravity="center_vertical"
+        android:layout_marginBottom="15dp"
         android:text="Interface du calculateur"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/teal_200"
+        >
+
+        <Button
+            android:id="@+id/degré2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:onClick="intentDegre2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="Equation de degre2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_200"
+        >
+
+        <Button
+            android:id="@+id/sys3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:onClick="intentSys3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="Système d'équation à 3 inconnues" />
+    </RelativeLayout>
 </LinearLayout>
